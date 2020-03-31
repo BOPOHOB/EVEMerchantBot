@@ -1,5 +1,5 @@
 [Unit]
-Description=Eve Merchant Bot
+Description=merchant_bot
 
 [Service]
 Restart=on-failure
