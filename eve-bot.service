@@ -1,0 +1,10 @@
+[Unit]
+Description=Eve Merchant Bot
+
+[Service]
+Restart=on-failure
+WorkingDirectory=/root/code/bot
+ExecStart=/root/code/bot/target/release/eve_merchant_bot
+
+[Install]
+WantedBy=multi-user.target
